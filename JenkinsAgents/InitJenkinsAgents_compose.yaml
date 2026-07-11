@@ -14,7 +14,7 @@ services:
     networks:
       - jenkins_network
   
-  networks:
-    jenkins_network:
-      external: true
-      name: jenkins
+networks:
+  jenkins_network:
+    external: true
+    name: jenkins
